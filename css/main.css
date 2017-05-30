@@ -1,0 +1,161 @@
+
+body{
+margin: 0;
+
+}
+
+header{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-header{
+  background-image: url('../img/header-img.jpg');
+  height: 560px;
+  width: 1280px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+
+.nav-row{
+display: inline-flex;
+align-items: center;
+background-color: black;
+margin: 0;
+width: 1280px;
+height: 48px;
+padding: 0 20px 0 20px;
+}
+
+
+.nav-item{
+  display: inline;
+  width: 1280px;
+  font-size: 17px;
+  text-align: center;
+  color: white;
+}
+
+li a{
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+header{
+  text-align: center;
+
+}
+
+.main-heading{
+font-family: 'Josefin Sans';
+font-size: 80px;
+z-index: 1;
+position: relative;
+top: 40px;
+
+}
+
+.sub-heading{
+font-family: 'Dancing Script';
+ color: white;
+ font-size: 60px;
+ text-shadow: 2px 3px 3px black;
+ position: relative;
+ z-index: 2;
+ bottom: 60px;
+}
+
+
+
+main{
+background-color: #FEF9ED;
+border: solid #E9E9E8;
+margin: 40px;
+position: relative;
+bottom: 80px;
+z-index: 3;
+}
+
+
+
+.container.blog-row{
+  text-align: center;
+  background-color: pink;
+  border: #EAEAEA solid;
+  margin: 60px;
+  width: 40%;
+  position: relative;
+  z-index: 4;
+}
+
+.item{
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-spacing: 1px;
+  width: 30%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 120px;
+  background-color: #FFFFFF;
+
+}
+
+.icon-wrapper{
+  float: center;
+}
+
+.blog-img{
+  float: right;
+}
+
+aside{
+  border: solid green;
+  background-color: #EFEAE0;
+  position: relative;
+  float: right;
+  width: 20%;
+  height: auto;
+
+}
+
+aside div .auth-pic{
+  background-image: url('../img/author.jpeg');
+  background-position: center; top;
+  background-repeat: round;
+  position: relative;
+  height: auto;
+  top: 25px;
+  background: #CAC6BE;
+
+}
+
+.auth-pic{
+
+}
+
+.aside-heading{
+margin: 35px;
+text-align: center;
+font-weight: bold;
+}
+
+
+footer{
+  background-color: black;
+  display: inline-block;
+  text-align: center;
+  width: 1280px;
+  height: 25px;
+}
+
+footer span{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
