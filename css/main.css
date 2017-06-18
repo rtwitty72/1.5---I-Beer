@@ -81,65 +81,140 @@ z-index: 3;
 }
 
 
-
-.container.blog-row{
-  text-align: center;
-  background-color: pink;
-  border: #EAEAEA solid;
-  margin: 60px;
-  width: 40%;
-  position: relative;
+div{
+  display: inline-block;
+  flex-wrap: wrap;
+  text-align:;
+  background-color: #FFFFFF;
+  margin-bottom: px;
+  width: 100%;
+  position: ;
   z-index: 4;
+}
+
+.blog-img{
+  border-color: #C3C3C3;
+  border-style: solid;
+  width: 90%;
+  display: flex;
+  z-index: 1;
 }
 
 .item{
   border-style: solid;
-  border-color: black;
+  border-color: #EFEADF;
   border-width: thin;
   border-spacing: 1px;
-  width: 30%;
+  width: 40%;
   height: auto;
   margin-top: 50px;
   margin-bottom: 30px;
   margin-left: 120px;
   background-color: #FFFFFF;
-
+  box-shadow: 1px 4px 3px 3px #AFABA2;
+  z-index: 2;
 }
 
 .icon-wrapper{
-  float: center;
+  display: flex;
+  color: #FFFFFF;
+  background-color: #EFEADF;
+  position: relative;
+  align-content: center;
+  z-index: 3;
 }
 
-.blog-img{
+.meta{
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.date{
+  width: 40%;
+  display: flex;
+  float: left;
+  z-index: 2;
+}
+
+.category{
+  width: 25%;
+  display: flex;
   float: right;
+  z-index: 2;
+}
+
+#dino{
+  background-image: url('../img/dino.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: right;
+  height: 250px;
+  width: 250px;
+}
+
+#xx{
+  background-image: url('../img/xx.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: right;
+  height: 250px;
+  width: 250px;
+}
+
+#yacht{
+  background-image: url('../img/yhact.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: right;
+  height: 250px;
+  width: 250px;
+}
+
+.entry-title{
+  font-family: 'josefin sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.primary-txt{
+  margin-left: 5px;
+  font-size: 17px;
 }
 
 aside{
-  border: solid green;
-  background-color: #EFEAE0;
+  border: solid #EFEADF;
+  background-color: #EFEADF;
   position: relative;
   float: right;
-  width: 20%;
-  height: auto;
+  margin-right: 40px;
+  width: 25%;
+  z-index: 3;
 
 }
 
-aside div .auth-pic{
+.author{
   background-image: url('../img/author.jpeg');
-  background-position: center; top;
+  background-size: cover;
+  background-position: center;
   background-repeat: round;
-  position: relative;
-  height: auto;
-  top: 25px;
-  background: #CAC6BE;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  z-index: 4;
 
 }
-
-.auth-pic{
-
+hr{
+  border-style: solid;
+  width: 80%;
 }
 
 .aside-heading{
+font-family: 'josefin sans';
+font-size: 20px;
 margin: 35px;
 text-align: center;
 font-weight: bold;
